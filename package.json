@@ -1,0 +1,31 @@
+{
+  "name": "react-init",
+  "version": "1.0.0",
+  "description": "react init",
+  "private": true,
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "serve": "webpack serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitee.com:XTZhu/react-init.git"
+  },
+  "keywords": [
+    "react",
+    "bootstrap",
+    "redux",
+    "webpack",
+    "react-router-dom"
+  ],
+  "author": "zwz",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.52.1",
+    "webpack-cli": "^4.8.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
